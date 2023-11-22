@@ -137,7 +137,6 @@ for file in tqdm(files_list):
                 DG_some = nx.DiGraph()
                 red_list = []
 
-
                 n, m, r = map(int, f.readline().strip().split())
                 s, t = map(str, f.readline().strip().split())
 
